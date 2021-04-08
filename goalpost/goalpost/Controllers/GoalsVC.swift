@@ -154,7 +154,7 @@ extension GoalsVC {
             if complete {
                 if goals.count >= 1 {
                     tableView.isHidden = false
-                }else {
+                } else {
                     tableView.isHidden = true
                 }
             }
