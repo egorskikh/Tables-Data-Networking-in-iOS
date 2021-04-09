@@ -32,7 +32,7 @@
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="addTodoWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyB-8q-VEZ"/>
+                                    <action selector="addTodo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DIH-R0-X3B"/>
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="h7H-xO-FT9">
@@ -54,7 +54,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="97"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dRn-c4-3vz">
+                                                <view clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dRn-c4-3vz">
                                                     <rect key="frame" x="314" y="28" width="40" height="40"/>
                                                     <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                     <constraints>
@@ -107,6 +107,7 @@
                     <connections>
                         <outlet property="prioritySegment" destination="h7H-xO-FT9" id="e0H-oe-Bc5"/>
                         <outlet property="todoItemTxt" destination="YDu-JI-saR" id="XAK-8B-OOX"/>
+                        <outlet property="todoTable" destination="D1D-3y-v2e" id="mfp-qd-dcP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
